@@ -17,7 +17,7 @@ class Person(AbstractUser):
         primary_key=True,
         max_length=8
 
-        , validators=[MaxLengthValidator(8, message="verify length"), MinLengthValidator(8),RegexValidator(r'^[0-9]*$')]
+        , validators=[MaxLengthValidator(8, message="verify length"), MinLengthValidator(8),RegexValidator(regex='^[0-9]{8}$',message="digits only")]
     )
     username = models.CharField("Username", max_length=255, unique=True)
     email = models.EmailField(
