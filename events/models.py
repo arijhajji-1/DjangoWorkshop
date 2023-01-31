@@ -1,6 +1,7 @@
 from datetime import datetime
 
 from django.core.exceptions import ValidationError
+from django.core.validators import MinValueValidator, MaxValueValidator
 from django.db import models
 # Create your models here.
 from users.models import*
@@ -23,10 +24,11 @@ class Event(models.Model):
 
     category = models.CharField(choices=CATEGORY_CHOICES, max_length=8)
     state = models.BooleanField(default=False)
-    nbrParticipants = models.IntegerField(default=0)
+    nbrParticipants = models.IntegerField(default=0 ,validators=[MinValueValidator(limit_value=0 , message="must  be positive")])
     eventDate = models.DateField(validators=[dateValidator])
     created_at = models.DateTimeField(auto_now_add=True)
     updated_at = models.DateTimeField(auto_now=True)
     organizers = models.ForeignKey(Person, on_delete=models.CASCADE, related_name='organizers')
-
+def __str__(self):
+    return self.title
 
