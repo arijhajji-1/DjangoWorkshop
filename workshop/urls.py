@@ -19,9 +19,13 @@ from django.urls import path, include
 from django.conf import settings
 from django.conf.urls.static import static
 
+from Api import urls
+
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('events/', include('events.urls'))
+    path('events/', include('events.urls')),
+    path('account/', include('users.urls')),
+    path('api/', include('Api.urls')),
 ]
 
 

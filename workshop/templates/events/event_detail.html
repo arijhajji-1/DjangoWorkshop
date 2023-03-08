@@ -4,7 +4,16 @@
     <div class="card-body">
         <h5 class="card-title">{{ event.title }}</h5>
         <p class="card-text">{{ event.description }}</p>
+         <p class="card-text">{{ event.nbrParticipants}}</p>
         <a href="{% url 'events_listC' %}" class="btn btn-dark">Go back</a>
+        <a href="{% url 'events_Participate' event.id %}" class="btn btn-secondary">Participate</a>
+        <a href="{% url 'events_cancel' event.id %}" class="btn btn-secondary">cancel Participation</a>
+         <a href="{% url 'events_update' event.id %}" class="btn btn-success">Update1</a>
+      <!-- <a href="{% url 'events_updateView' event.id %}" class="btn btn-success">Update2</a> -->
+      <!--  <a href="{% url 'events_delete' event.id %}" class="btn btn-danger">Delete</a> -->
+        <a href="{% url 'events_delete' event.id %}"  class="btn btn-danger">Delete</a>
+
     </div>
 </div>
 {% endblock content %}
+
