@@ -5,16 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fa4fb81e-226a-4c36-a391-80c4d2188ddd" name="Changes" comment="register/login">
-      <change afterPath="$PROJECT_DIR$/Api/Serializers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Api/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Api/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/DjangoWorkshop.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/232f360c-6282-45ae-b2fe-3133bcee4357.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/3a888f76-29e1-4998-b05b-cc3f4c73c6e0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/events/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/events/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/users/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/forms.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/users/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/workshop/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/workshop/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/workshop/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/workshop/urls.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,8 +35,9 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Arij/github-classroom/4TWIN8/casestudy_django-arijhajji-1&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/4twin/django workshop/DjangoWorkshop&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -55,7 +55,30 @@
       <recent name="C:\Users\Arij\github-classroom\4TWIN8\casestudy_django-arijhajji-1\static\img" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Django Server.DjangoWorkshop">
+    <configuration name="DjangoWorkshop" type="Python.DjangoServer" factoryName="Django server">
+      <module name="DjangoWorkshop" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="casestudy_django-arijhajji-1" type="Python.DjangoServer" factoryName="Django server">
       <module name="casestudy_django-arijhajji-1" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -98,6 +121,9 @@
       <workItem from="1677574383713" duration="6623000" />
       <workItem from="1677623825018" duration="1415000" />
       <workItem from="1678177071797" duration="8107000" />
+      <workItem from="1684875176588" duration="150000" />
+      <workItem from="1684875466406" duration="150000" />
+      <workItem from="1684875719580" duration="489000" />
     </task>
     <task id="LOCAL-00001" summary="fields , fieldsets, filter">
       <created>1675759851529</created>

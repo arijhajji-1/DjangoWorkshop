@@ -13,7 +13,6 @@ urlpatterns = [
     path('deleteView/<int:pk>', deleteEvent.as_view(), name="events_delete"),
     path('delete/<int:id>', deleteEventFn, name="events_delete"),
     path('CancelEvent/<int:id>', cancelEvent, name="events_cancel"),
-
     path('listEvents/', EventsList.as_view(), name="events_listC"),
     path('eventsDetails/<int:pk>', EventsDetails.as_view(), name="events_DetailsC"),
 ]
